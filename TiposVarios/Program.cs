@@ -10,6 +10,15 @@ namespace TiposVarios
     {
         static void Main(string[] args)
         {
+            //Strings
+
+            string verbatim = @"C:\Users\Ana\Documents";
+            string normal = "dfsfdfsdfs";
+            string verbaspas = @"""Pls Work""";
+            Console.WriteLine(verbatim);
+            Console.WriteLine(normal);
+            Console.WriteLine(verbaspas);
+
         }
     }
 }
